@@ -1,5 +1,5 @@
 create table
-    nums (id int auto_increment primary key);
+    nums (id int );
 
 insert into nums values (2), (5), (9), (20), ();
 
