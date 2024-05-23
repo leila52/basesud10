@@ -1,5 +1,5 @@
 create table
-    tab1 (a int, b int, primary key (a, b));
+    tab1 (a int, b int);
 
 insert into
     tab1
