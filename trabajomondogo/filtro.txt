@@ -1,4 +1,6 @@
 { "jugadores.clausula_de_rescision":  5000  }
 {"jugadores.nombre": "Alex"}
+{"fecha_de_inicio": "2020-05-12"}
+
 {"mentor":1}
 
