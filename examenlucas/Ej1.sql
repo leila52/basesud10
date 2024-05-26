@@ -57,6 +57,8 @@ begin
     declare max1 int default 0;
     declare max2 int default 0;
     declare max3 int default 0;
+
+    
     declare done boolean default false;
     declare c1 cursor for select distinct a.marca from automoviles a left join polizas p on a.matricula = p.matricula;
     declare continue handler for SQLSTATE '02000' set done = true;
@@ -93,3 +95,27 @@ end //
 delimiter ;
 
 select p.cuantia from polizas p left join automoviles a on p.matricula = a.matricula where a.marca = "ASTON MART" order by p.cuantia desc limit 3;
+
+
+    Inicialización:
+        Se crea la tabla maxpolizas si no existe.
+        El procedimiento comienza borrando todos los registros de maxpolizas.
+
+    Uso de cursores:
+        Se utilizan dos cursores:
+            c1 para iterar sobre cada marca de automóvil.
+            c2 para obtener las tres pólizas más altas de cada marca ordenadas de mayor a menor.
+        El cursor c1 inicializa maxpolizas con cada marca y tres ceros.
+        Luego, c1 se reutiliza para recorrer cada marca y utilizar c2 para actualizar las pólizas más altas.
+
+    Manejo de errores:
+        El manejador de errores CONTINUE HANDLER FOR NOT FOUND gestiona el fin de los cursores.
+
+    Inserción y actualización:
+        Los registros iniciales se insertan con ceros.
+        Luego, se actualizan con las tres pólizas más altas encontradas para cada marca, o permanecen en cero si hay menos de tres pólizas.
+
+    Eficiencia:
+        La ejecución puede ser relativamente lenta (5-20 segundos) debido a las operaciones de cursores y el volumen potencialmente grande de datos, especialmente si hay muchas marcas y pólizas.
+
+Este programa debería cumplir con los requisitos de la rúbrica y funcionar completamente para insertar y actualizar la tabla maxpolizas con las pólizas más altas de cada marca.

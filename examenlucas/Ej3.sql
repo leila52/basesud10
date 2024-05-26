@@ -12,7 +12,8 @@ No entra en el ejercicio que no exista el código, si devuelve null se considera
 /*Ejemplo de ejecución
 Teniendo la tabla retrasos los datos antes insertados sin más cambios:*/
 
-select * from retraso;
+select * from retrasos
+;
 codigo	dias
 1	    10
 2	    7

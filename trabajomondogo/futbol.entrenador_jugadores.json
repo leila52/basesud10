@@ -1,0 +1,327 @@
+{ "jugadores.clausula_de_rescision":  5000  }
+{"jugadores.nombre": "Alex"}
+{"mentor":1}
+
+
+[{
+  "_id": {
+    "$oid": "6652f6aa25140cb8e62dffb8"
+  },
+  "ID": 1,
+  "nombre": "Pep Guardiola",
+  "mentor": null,
+  "jugadores": [
+    {
+      "Dorsal": 10,
+      "nombre": "Luca",
+      "clausula_de_rescision": 5000,
+      "fecha_de_inicio": "2018-08-12",
+      "fecha_de_fin_de_contrato": "2020-04-05",
+      "dni": "799856641P"
+    },
+    {
+      "Dorsal": 2,
+      "nombre": "Alex",
+      "clausula_de_rescision": 8000,
+      "fecha_de_inicio": "2017-05-23",
+      "fecha_de_fin_de_contrato": "2018-09-14",
+      "dni": "799856641P"
+    },
+    {
+      "Dorsal": 24,
+      "nombre": "Raul",
+      "clausula_de_rescision": 7899,
+      "fecha_de_inicio": "2019-12-16",
+      "fecha_de_fin_de_contrato": "2021-02-12",
+      "dni": "754499614A"
+    },
+    {
+      "Dorsal": 37,
+      "nombre": "Pablo",
+      "clausula_de_rescision": 4400,
+      "fecha_de_inicio": "2019-04-21",
+      "fecha_de_fin_de_contrato": "2021-12-22",
+      "dni": "547788996Z"
+    },
+    {
+      "Dorsal": 30,
+      "nombre": "Piqueras",
+      "clausula_de_rescision": 3400,
+      "fecha_de_inicio": "2021-11-18",
+      "fecha_de_fin_de_contrato": "2023-06-20",
+      "dni": "L83244556Q"
+    }
+  ]
+},
+
+
+
+
+{
+  "_id": {
+    "$oid": "6652f6d525140cb8e62dffba"
+  },
+  "ID": 2,
+  "nombre": "Jurgen Klopp",
+  "mentor": 1,
+  "jugadores": [
+    {
+      "Dorsal": 15,
+      "nombre": "Jorge",
+      "clausula_de_rescision": 7600,
+      "fecha_de_inicio": "2018-07-04",
+      "fecha_de_fin_de_contrato": "2019-06-08",
+      "dni": "799856641P"
+    },
+    {
+      "Dorsal": 8,
+      "nombre": "Marcos",
+      "clausula_de_rescision": 10000,
+      "fecha_de_inicio": "2017-05-31",
+      "fecha_de_fin_de_contrato": "2020-09-25",
+      "dni": "799856641P"
+    },
+    {
+      "Dorsal": 27,
+      "nombre": "Fermin",
+      "clausula_de_rescision": 2000,
+      "fecha_de_inicio": "2018-01-15",
+      "fecha_de_fin_de_contrato": "2020-08-16",
+      "dni": "754499614A"
+    },
+    {
+      "Dorsal": 44,
+      "nombre": "Mario",
+      "clausula_de_rescision": 4900,
+      "fecha_de_inicio": "2022-06-23",
+      "fecha_de_fin_de_contrato": "2024-05-27",
+      "dni": "547788996Z"
+    },
+    {
+      "Dorsal": 98,
+      "nombre": "Javi",
+      "clausula_de_rescision": 2700,
+      "fecha_de_inicio": "2022-12-13",
+      "fecha_de_fin_de_contrato": "2025-02-17",
+      "dni": "L83244556Q"
+    }
+  ]
+},
+
+
+
+
+{
+  "_id": {
+    "$oid": "6652f6f525140cb8e62dffbc"
+  },
+  "ID": 3,
+  "nombre": "Zinedine Zidane",
+  "mentor": 1,
+  "jugadores": [
+    {
+      "Dorsal": 4,
+      "nombre": "Fernando",
+      "clausula_de_rescision": 8500,
+      "fecha_de_inicio": "2019-03-25",
+      "fecha_de_fin_de_contrato": "2020-10-05",
+      "dni": "799856641P"
+    },
+    {
+      "Dorsal": 9,
+      "nombre": "Mateo",
+      "clausula_de_rescision": 4000,
+      "fecha_de_inicio": "2018-09-14",
+      "fecha_de_fin_de_contrato": "2020-02-02",
+      "dni": "799856641P"
+    },
+    {
+      "Dorsal": 60,
+      "nombre": "Francisco",
+      "clausula_de_rescision": 4300,
+      "fecha_de_inicio": "2020-05-12",
+      "fecha_de_fin_de_contrato": "2022-12-25",
+      "dni": "754499614A"
+    },
+    {
+      "Dorsal": 86,
+      "nombre": "Cristian",
+      "clausula_de_rescision": 3600,
+      "fecha_de_inicio": "2017-05-15",
+      "fecha_de_fin_de_contrato": "2021-09-04",
+      "dni": "547788996Z"
+    },
+    {
+      "Dorsal": 38,
+      "nombre": "Eugenio",
+      "clausula_de_rescision": 1800,
+      "fecha_de_inicio": "2016-10-12",
+      "fecha_de_fin_de_contrato": "2020-04-20",
+      "dni": "L83244556Q"
+    }
+  ]
+},
+
+
+
+
+
+{
+  "_id": {
+    "$oid": "6652f70d25140cb8e62dffbe"
+  },
+  "ID": 4,
+  "nombre": "Diego Simeone",
+  "mentor": 3,
+  "jugadores": [
+    {
+      "Dorsal": 22,
+      "nombre": "Andres",
+      "clausula_de_rescision": 8000,
+      "fecha_de_inicio": "2017-06-02",
+      "fecha_de_fin_de_contrato": "2019-05-13",
+      "dni": "257889933L"
+    },
+    {
+      "Dorsal": 14,
+      "nombre": "Alberto",
+      "clausula_de_rescision": 5542,
+      "fecha_de_inicio": "2018-05-19",
+      "fecha_de_fin_de_contrato": "2021-08-12",
+      "dni": "257889933L"
+    },
+    {
+      "Dorsal": 32,
+      "nombre": "Jesus",
+      "clausula_de_rescision": 3400,
+      "fecha_de_inicio": "2017-05-17",
+      "fecha_de_fin_de_contrato": "2021-02-07",
+      "dni": "754499614A"
+    },
+    {
+      "Dorsal": 67,
+      "nombre": "Carlos",
+      "clausula_de_rescision": 3400,
+      "fecha_de_inicio": "2018-01-15",
+      "fecha_de_fin_de_contrato": "2022-07-05",
+      "dni": "547788996Z"
+    },
+    {
+      "Dorsal": 41,
+      "nombre": "Musiale",
+      "clausula_de_rescision": 1900,
+      "fecha_de_inicio": "2017-06-06",
+      "fecha_de_fin_de_contrato": "2019-05-15",
+      "dni": "L83244556Q"
+    }
+  ]
+},
+
+
+
+
+
+{
+  "_id": {
+    "$oid": "6652f72025140cb8e62dffc0"
+  },
+  "ID": 5,
+  "nombre": "Carlo Ancelotti",
+  "mentor": 2,
+  "jugadores": [
+    {
+      "Dorsal": 26,
+      "nombre": "Mohamed",
+      "clausula_de_rescision": 9000,
+      "fecha_de_inicio": "2017-07-07",
+      "fecha_de_fin_de_contrato": "2020-06-21",
+      "dni": "257889933L"
+    },
+    {
+      "Dorsal": 21,
+      "nombre": "Yusef",
+      "clausula_de_rescision": 9500,
+      "fecha_de_inicio": "2018-07-14",
+      "fecha_de_fin_de_contrato": "2020-12-25",
+      "dni": "257889933L"
+    },
+    {
+      "Dorsal": 36,
+      "nombre": "Martin",
+      "clausula_de_rescision": 7300,
+      "fecha_de_inicio": "2018-09-19",
+      "fecha_de_fin_de_contrato": "2017-04-15",
+      "dni": "754499614A"
+    },
+    {
+      "Dorsal": 78,
+      "nombre": "Marcos",
+      "clausula_de_rescision": 5000,
+      "fecha_de_inicio": "2017-06-30",
+      "fecha_de_fin_de_contrato": "2021-11-30",
+      "dni": "547788996Z"
+    },
+    {
+      "Dorsal": 51,
+      "nombre": "Jelly",
+      "clausula_de_rescision": 2200,
+      "fecha_de_inicio": "2019-07-09",
+      "fecha_de_fin_de_contrato": "2022-10-12",
+      "dni": "L83244556Q"
+    }
+  ]
+},
+
+
+
+
+{
+  "_id": {
+    "$oid": "6652fb4d25140cb8e62dffc2"
+  },
+  "ID": 6,
+  "nombre": "Jose Mourinho",
+  "mentor": 5,
+  "jugadores": [
+    {
+      "Dorsal": 7,
+      "nombre": "Claudio",
+      "clausula_de_rescision": 8000,
+      "fecha_de_inicio": "2019-11-12",
+      "fecha_de_fin_de_contrato": "2022-05-30",
+      "dni": "257889933L"
+    },
+    {
+      "Dorsal": 1,
+      "nombre": "Luis",
+      "clausula_de_rescision": 4000,
+      "fecha_de_inicio": "2017-02-14",
+      "fecha_de_fin_de_contrato": "2020-05-22",
+      "dni": "257889933L"
+    },
+    {
+      "Dorsal": 39,
+      "nombre": "Alexandru",
+      "clausula_de_rescision": 3900,
+      "fecha_de_inicio": "2019-09-15",
+      "fecha_de_fin_de_contrato": "2022-09-12",
+      "dni": "754499614A"
+    },
+    {
+      "Dorsal": 49,
+      "nombre": "Alberto",
+      "clausula_de_rescision": 4600,
+      "fecha_de_inicio": "2021-07-31",
+      "fecha_de_fin_de_contrato": "2023-07-31",
+      "dni": "547788996Z"
+    },
+    {
+      "Dorsal": 54,
+      "nombre": "Jota",
+      "clausula_de_rescision": 4100,
+      "fecha_de_inicio": "2018-06-19",
+      "fecha_de_fin_de_contrato": "2022-12-11",
+      "dni": "L83244556Q"
+    }
+  ]
+}]
