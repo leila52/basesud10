@@ -1,0 +1,4 @@
+{ "jugadores.clausula_de_rescision":  5000  }
+{"jugadores.nombre": "Alex"}
+{"mentor":1}
+
